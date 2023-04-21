@@ -1,0 +1,8 @@
+interval: 5s
+list:
+- name: nginx
+  sha265: "11111"
+  version: latest
+- name: custom
+  version: "10"
+  sha265: "2222"

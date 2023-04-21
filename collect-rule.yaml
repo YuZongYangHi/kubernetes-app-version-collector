@@ -1,0 +1,5 @@
+interval: 5s
+list:
+- name: nginx
+- name: custom
+  cmd: "ps -ef  | grep loginwindow | sed -n 1p | awk '{ print $1 }'"
